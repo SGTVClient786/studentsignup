@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Garden TV for Kids: Student Contributions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdf4; /* Very light green background for a fresh feel */
+            color: #334155; /* Darker text for readability */
+            /* Subtle repeating leaf pattern for background */
+            background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 0 C15 5 15 15 10 20 C5 15 5 5 10 0 Z' fill='%23dcfce7' opacity='0.3'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .main-title {
+            font-family: 'Merriweather', serif; /* Distinctive font for the main title */
+            color: #052e16; /* Even deeper forest green for strong contrast */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+            letter-spacing: 0.05em; /* A little space between letters */
+        }
+        .section-title {
+            color: #0c4a16; /* Deep forest green for section titles */
+        }
+        .btn-primary {
+            background-color: #22c55e; /* Vibrant green button */
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #15803d; /* Darker green on hover */
+        }
+        .form-input {
+            border-color: #bbf7d0; /* Light green border */
+        }
+        .form-checkbox:checked {
+            background-color: #22c55e;
+            border-color: #22c55e;
+        }
+        .loading-spinner {
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #22c55e; /* Green */
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        /* New styles for the sun icon */
+        .sun-icon {
+            display: block;
+            margin: 0 auto 10px auto; /* Center and space below */
+            width: 80px; /* Adjust size as needed */
+            height: 80px; /* Make height equal to width for a perfect circle */
+            overflow: visible; /* Ensure rays are visible */
+        }
+        .sun-circle {
+            fill: #22c55e; /* Green color for the sun */
+        }
+        .sun-ray {
+            stroke: #15803d; /* Darker green for rays */
+            stroke-width: 2;
+            stroke-linecap: round;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 lg:p-8">
+    <div class="container mx-auto bg-white p-6 sm:p-8 lg:p-10 rounded-xl shadow-lg">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="25" class="sun-circle"/>
+            <line x1="50" y1="20" x2="50" y2="0" class="sun-ray"/>
+            <line x1="50" y1="80" x2="50" y2="100" class="sun-ray"/>
+            <line x1="20" y1="50" x2="0" y2="50" class="sun-ray"/>
+            <line x1="80" y1="50" x2="100" y2="50" class="sun-ray"/>
+
+            <line x1="30" y1="30" x2="15" y2="15" class="sun-ray" transform="rotate(45 50 50)"/>
+            <line x1="70" y1="70" x2="85" y2="85" class="sun-ray" transform="rotate(45 50 50)"/>
+            <line x1="30" y1="70" x2="15" y2="85" class="sun-ray" transform="rotate(-45 50 50)"/>
+            <line x1="70" y1="30" x2="85" y2="15" class="sun-ray" transform="rotate(-45 50 50)"/>
+        </svg>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center main-title mb-6">Secret Garden TV for Kids: Student Contributions</h1>
+
+        <section class="mb-8 p-4 bg-green-50 rounded-lg shadow-sm">
+            <h2 class="text-xl sm:text-2xl font-bold section-title mb-3">Our Sacred Mission</h2>
+            <p class="text-base sm:text-lg leading-relaxed">
+                At Secret Garden TV for Kids, we are dedicated to nurturing young hearts with the profound beauty of Islamic wisdom. We craft engaging educational media—from enchanting stories and melodious songs to inspiring videos and thoughtful curriculums—that illuminate Allah's active presence in all of creation. Our mission is to make the deepest Islamic concepts accessible and inspiring for every child, fostering a vibrant understanding of Tawhid that blossoms into a renewed Islamic civilization.
+            </p>
+        </section>
+
+        <p class="text-base sm:text-lg mb-6 leading-relaxed">
+            We are incredibly grateful for your interest in contributing to our research project focused on children's education productions. Your involvement, in any capacity, makes a significant difference in helping us create impactful and enriching content for young learners. Below are various ways you can support our efforts.
+        </p>
+
+        <h2 class="text-2xl sm:text-3xl font-bold section-title mb-5">Ways You Can Contribute:</h2>
+
+        <div class="space-y-6">
+            <div class="space-y-4">
+                <div class="flex items-start">
+                    <div class="ml-3 text-base sm:text-lg text-gray-700">
+                        <span class="font-semibold">Prayers and Keeping Us in Your Duas:</span> We deeply value spiritual support. Your prayers and duas for the success, impact, and well-being of our project and everyone involved are a profound source of strength and encouragement.
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="ml-3 text-base sm:text-lg text-gray-700">
+                        <span class="font-semibold">Volunteer Time:</span> Your time and skills are truly invaluable to Secret Garden TV for Kids. We are seeking committed individuals for long-term volunteer engagements that involve thorough skills training, dedicated work, and ongoing development. While this requires significant commitment, we would be delighted to involve passionate individuals who are ready to dedicate themselves to our educational mission. For those who are unable to contribute their time due to professional commitments, you can still support our mission by contributing to our efforts and the financial needs of our team members, empowering their dedicated work on this project.
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="ml-3 text-base sm:text-lg text-gray-700">
+                        <span class="font-semibold">Sharing Our Output and Getting the Word Out:</span> Help us reach a wider audience! Spreading awareness about our educational productions is crucial. You can assist by:
+                        <ul class="list-disc list-inside mt-2 space-y-1">
+                            <li><span class="font-medium">Digital Means:</span> Repost our content (videos, articles, resources) on social media platforms like Instagram, Facebook, and X (formerly Twitter). Share our links via email or messaging apps.</li>
+                            <li><span class="font-medium">In-Person Means:</span> Speak about Secret Garden TV for Kids to your local mosque community, family, and friends. Share our mission and encourage them to explore our materials.</li>
+                        </ul>
+                        <span class="text-green-700 font-semibold mt-2 block">If you sign up for this, we will notify you every time we post new content or have something to advertise!</span>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="ml-3 text-base sm:text-lg text-gray-700">
+                        <span class="font-semibold">Monetary Donations:</span> Financial contributions enable us to cover essential costs such as research materials, production equipment, software licenses, outreach initiatives, and platform maintenance. Every donation, no matter the size, directly supports the creation and dissemination of high-quality educational content.
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="ml-3 text-base sm:text-lg text-gray-700">
+                        <span class="font-semibold">Other Donations (e.g., Physical Toys):</span> Beyond monetary support, we may also benefit from in-kind donations. This could include educational toys, children's books, art supplies, or other resources that can be used in our productions or for related research activities. Please contact us to discuss specific needs and arrangements for physical donations.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-8 border-gray-200">
+
+        <h2 class="text-2xl sm:text-3xl font-bold section-title mb-5">Why Your Contribution Matters:</h2>
+        <ul class="list-disc list-inside space-y-2 text-base sm:text-lg leading-relaxed">
+            <li>Conduct thorough research to inform our educational content.</li>
+            <li>Produce high-quality, engaging, and culturally relevant materials.</li>
+            <li>Reach more children and families, especially those in underserved communities.</li>
+            <li>Develop innovative approaches to early childhood education.</li>
+        </ul>
+
+        <hr class="my-8 border-gray-200">
+
+        <h2 class="text-2xl sm:text-3xl font-bold section-title mb-5">How to Get Started:</h2>
+        <p class="text-base sm:text-lg mb-4 leading-relaxed">
+            If you are interested in contributing in any of the ways listed above, please reach out to us. We would love to discuss how your support can best align with our project's needs and your interests.
+        </p>
+        <p class="text-base sm:text-lg font-semibold">
+            <span class="block">Contact Dr. Payam Mohseni at: <a href="mailto:payam.mohseni@gmail.com" class="text-green-600 hover:underline">payam.mohseni@gmail.com</a></span>
+            <span class="block">Contact Dr. Mohammad Sagha at: <a href="mailto:msagha12@gmail.com" class="text-green-600 hover:underline">msagha12@gmail.com</a></span>
+        </p>
+
+        <hr class="my-8 border-gray-200">
+
+        <p class="text-center text-base sm:text-lg mt-10 text-gray-600">
+            Thank you for considering becoming a part of our mission to enrich children's education. Your generosity and dedication are deeply appreciated.
+        </p>
+    </div>
+
+    <script>
+        // All previous JavaScript related to form submission and social media post generation has been removed.
+        // Only the basic HTML structure and styling remain.
+    </script>
+</body>
+</html>
